@@ -5,6 +5,6 @@ def maiorNumero(obj = []):
     for i in obj:
         if i > maior:
             maior = i
-    print(maior)
+    return maior
 
-maiorNumero(numeros)
+print(maiorNumero(numeros))
