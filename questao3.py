@@ -12,6 +12,6 @@ def segundoMaior(obj = []):
     for i in obj:
         if i >= segundo:
             segundo = i
-    print(segundo)
+    return segundo
 
-segundoMaior(numeros)
+print(segundoMaior(numeros))
